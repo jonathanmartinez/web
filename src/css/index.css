@@ -5,7 +5,6 @@ body {
   padding: 0;
   font-family: 'Roboto Mono';
   font-style: normal;
-  color:white;
 }
 
 h1{
@@ -20,20 +19,23 @@ h1{
 
 canvas {
     display:block;
-    background: #00c6ff; /* Old browsers */
-    background: -moz-linear-gradient(45deg,  #00c6ff 0%, #0072ff 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg,  #00c6ff 0%,#0072ff 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg,  #00c6ff 0%,#0072ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c6ff', endColorstr='#0072ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /*background: #00c6ff;
+    background: -moz-linear-gradient(45deg,  #00c6ff 0%, #0072ff 100%);
+    background: -webkit-linear-gradient(45deg,  #00c6ff 0%,#0072ff 100%);
+    background: linear-gradient(45deg,  #00c6ff 0%,#0072ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c6ff', endColorstr='#0072ff',GradientType=1 ); */
     position: fixed;
 }
 
 .logo{
   margin-top: 15px;
 }
+.lead{
+  color:grey;
+}
 
 a, a:hover{
-  color: #333;
+  color: #0072ff;
 }
 
 .name{
@@ -42,7 +44,30 @@ a, a:hover{
 }
 
 .social-link{
-  display: block;
+  /*display: block;*/
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.tag-link{
+  margin-right: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.right-5{
+  margin-right: 5px;
+}
+.right-10{
+  margin-right: 10px;
+}
+
+.bio{
+  margin-top: 40px;
+}
+.last-project{
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width : 768px) {
@@ -56,5 +81,4 @@ a, a:hover{
   .social-link{
     display: inline-block;
   }
-
 }
