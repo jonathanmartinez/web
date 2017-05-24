@@ -8,10 +8,10 @@ export default class App extends Component {
     const particlesOptions = {
       particles: {
         "number":{
-          "value":50,
+          "value":40,
           "density": {
             "enable": true,
-            "value_area": 800
+            "value_area": 3000
           }
         },
         "color":{
@@ -34,7 +34,7 @@ export default class App extends Component {
           }
         }
       },
-      retina_detect: false
+      retina_detect: true
     }
 
     const tooltipGithub = (
@@ -82,20 +82,22 @@ export default class App extends Component {
               <p className="last-project">
                 Check out my last side project: <a target="_blank" href="http://elasticflight.com/">Elastic Flight</a> — Find cheap flights with no particular date.
               </p>
-              <p className="social-links">
+              <p>Feel free to contact me.</p>
+              <p>
                 <OverlayTrigger placement="top" overlay={tooltipGithub}>
-                  <a className="social-link" target="_blank" href="https://github.com/jonathanmartinez"><i className="fa fa-github right-10"></i></a>
+                  <a className="social-link" target="_blank" href="https://github.com/jonathanmartinez"><i className="fa fa-github"></i></a>
                 </OverlayTrigger>
                 <OverlayTrigger placement="top" overlay={tooltipLinkedin}>
-                  <a className="social-link" target="_blank" href="http://linkedin.com/in/jonathan-martinez1"><i className="fa fa-linkedin right-10"></i></a>
+                  <a className="social-link" target="_blank" href="http://linkedin.com/in/jonathan-martinez1"><i className="fa fa-linkedin"></i></a>
                 </OverlayTrigger>
                 <OverlayTrigger placement="top" overlay={tooltipEmail}>
-                  <a className="social-link" target="_blank" href="mailto:jonymartinez1@gmail.com"><i className="fa fa-envelope right-10"></i></a>
+                  <a className="social-link" target="_blank" href="mailto:jonymartinez1@gmail.com"><i className="fa fa-envelope"></i></a>
                 </OverlayTrigger>
                 <OverlayTrigger placement="top" overlay={tooltipSkype}>
-                  <a className="social-link" target="_blank" href="#"><i className="fa fa-skype right-10"></i></a>
+                  <a className="social-link" target="_blank" href="#"><i className="fa fa-skype"></i></a>
                 </OverlayTrigger>
               </p>
+              <p className="coded">Coded with <i className="fa fa-heart text-danger"></i> by <a href="https://github.com/jonathanmartinez" target="_blank"> Jonathan Martínez </a></p>
             </article>
           </section>
         </main>

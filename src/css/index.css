@@ -35,7 +35,7 @@ canvas {
 }
 
 a, a:hover{
-  color: #0072ff;
+  color: #0069ff;
 }
 
 .name{
@@ -45,8 +45,8 @@ a, a:hover{
 
 .social-link{
   /*display: block;*/
-  margin-right: 20px;
-  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   font-size: 24px;
 }
 
@@ -71,7 +71,7 @@ a, a:hover{
   margin-top: 40px;
 }
 
-.social-links{
+.coded{
   margin-bottom: 40px;
 }
 
