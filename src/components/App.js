@@ -72,36 +72,36 @@ export default class App extends Component {
                 I've had the pleasure to work in/for several companies, from startups to big companies:&nbsp;
                 {/*this nbsp's are to put a space with no underline*/}
                 <a target="_blank" href="https://www.cymsuroeste.com/">CYM Suroeste</a>,&nbsp;
-                <a target="_blank" href="http://www.dual-link.com/">Dual Link</a>,&nbsp;
-                <a target="_blank" href="http://www.nitsnets.com/">Nitsnets</a>,&nbsp;
-                <a target="_blank" href="http://www.heartibiza.com/">HEART Ibiza</a>,&nbsp;
-                <a target="_blank" href="https://www.panamajack.es/">Panama Jack</a>,&nbsp;
-                <a target="_blank" href="http://www.mondraker.com/">Mondraker</a>,&nbsp;
-                <a target="_blank" href="http://blgabogados.es/">BLG Abogados</a>.&nbsp;
-              </p>
-              <p className="last-project">
-                Check out my last side project: <a target="_blank" href="http://elasticflight.com/">Elastic Flight</a> — Find cheap flights with no particular date.
-              </p>
-              <p>Feel free to contact me.</p>
-              <p>
-                <OverlayTrigger placement="top" overlay={tooltipGithub}>
-                  <a className="social-link" target="_blank" href="https://github.com/jonathanmartinez"><i className="fa fa-github"></i></a>
-                </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={tooltipLinkedin}>
-                  <a className="social-link" target="_blank" href="http://linkedin.com/in/jonathan-martinez1"><i className="fa fa-linkedin"></i></a>
-                </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={tooltipEmail}>
-                  <a className="social-link" target="_blank" href="mailto:jonymartinez1@gmail.com"><i className="fa fa-envelope"></i></a>
-                </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={tooltipSkype}>
-                  <a className="social-link" target="_blank" href="#"><i className="fa fa-skype"></i></a>
-                </OverlayTrigger>
-              </p>
-              <p className="coded">Coded with <i className="fa fa-heart text-danger"></i> by <a href="https://github.com/jonathanmartinez" target="_blank"> Jonathan Martínez </a></p>
-            </article>
-          </section>
-        </main>
-      </div>
-    );
-  }
-}
+                  <a target="_blank" href="http://www.dual-link.com/">Dual Link</a>,&nbsp;
+                    <a target="_blank" href="http://www.nitsnets.com/">Nitsnets</a>,&nbsp;
+                      <a target="_blank" href="http://www.heartibiza.com/">HEART Ibiza</a>,&nbsp;
+                        <a target="_blank" href="https://www.panamajack.es/">Panama Jack</a>,&nbsp;
+                          <a target="_blank" href="http://www.mondraker.com/">Mondraker</a>,&nbsp;
+                            <a target="_blank" href="http://blgabogados.es/">BLG Abogados</a>.&nbsp;
+                            </p>
+                            <p className="last-project">
+                              Check out my last side project: <a target="_blank" href="http://elasticflight.com/">Elastic Flight</a> — Find cheap flights with no particular date.
+                            </p>
+                            <p>Feel free to contact me.</p>
+                            <p>
+                              <OverlayTrigger placement="top" overlay={tooltipGithub}>
+                                <a className="social-link" target="_blank" href="https://github.com/jonathanmartinez"><i className="fa fa-github"></i></a>
+                              </OverlayTrigger>
+                              <OverlayTrigger placement="top" overlay={tooltipLinkedin}>
+                                <a className="social-link" target="_blank" href="http://linkedin.com/in/jonathan-martinez1"><i className="fa fa-linkedin"></i></a>
+                              </OverlayTrigger>
+                              <OverlayTrigger placement="top" overlay={tooltipEmail}>
+                                <a className="social-link" target="_blank" href="mailto:jonymartinez1@gmail.com"><i className="fa fa-envelope"></i></a>
+                              </OverlayTrigger>
+                              <OverlayTrigger placement="top" overlay={tooltipSkype}>
+                                <a className="social-link" target="_blank" href="#"><i className="fa fa-skype"></i></a>
+                              </OverlayTrigger>
+                            </p>
+                            <p className="coded">Coded with <i className="fa fa-heart text-danger"></i> by <a href="https://github.com/jonathanmartinez" target="_blank"> Jonathan Martínez </a></p>
+                          </article>
+                        </section>
+                      </main>
+                    </div>
+                  );
+                }
+              }
