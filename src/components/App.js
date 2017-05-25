@@ -47,7 +47,7 @@ export default class App extends Component {
       <Tooltip id="tooltip">jonymartinez1@gmail.com</Tooltip>
     );
     const tooltipSkype = (
-      <Tooltip id="tooltip">@skype</Tooltip>
+      <Tooltip id="tooltip">jonymartinez1@gmail.com</Tooltip>
     );
 
     return (
@@ -94,7 +94,7 @@ export default class App extends Component {
                                 <a className="social-link" target="_blank" href="mailto:jonymartinez1@gmail.com"><i className="fa fa-envelope"></i></a>
                               </OverlayTrigger>
                               <OverlayTrigger placement="top" overlay={tooltipSkype}>
-                                <a className="social-link" target="_blank" href="#"><i className="fa fa-skype"></i></a>
+                                <a className="social-link" target="_blank" href="skype:jonymartinez1@gmail.com?call"><i className="fa fa-skype"></i></a>
                               </OverlayTrigger>
                             </p>
                             <p className="coded">Coded with <i className="fa fa-heart text-danger"></i> by <a href="https://github.com/jonathanmartinez" target="_blank"> Jonathan Martínez </a></p>
