@@ -1,5 +1,6 @@
 <div align="center">
     <img src="https://github.com/jonathanmartinez/web/blob/master/doc/logo.jpg?raw=true" height="100" alt="Demo">
+    <br><br>
     <p><strong>Jonathan Martínez</strong> | Software engineer.</p>
     <a href="http://www.jonathanmartinez.me">jonathanmartinez.me</a>
     <br><br>
