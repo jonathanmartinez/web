@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/jonathanmartinez/web/blob/master/doc/logo.jpg?raw=true" height="100" alt="Demo">
+    <img src="https://github.com/jonathanmartinez/web/blob/master/doc/logo.jpg?raw=true" height="100" alt="Logo">
     <br><br>
     <p><strong>Jonathan Martínez</strong> | Software engineer.</p>
     <a href="http://www.jonathanmartinez.me">jonathanmartinez.me</a>
@@ -26,6 +26,7 @@ My personal website & brand identity.
 
 * [ReactJS](https://facebook.github.io/react/) & [Create React App](https://github.com/facebookincubator/create-react-app)
 * [Twitter Bootstrap](http://getbootstrap.com/)
+* [SASS](http://sass-lang.com/)
 * [Particles.js](http://vincentgarreau.com/particles.js/)
 * [Webpack](https://webpack.github.io/)
 * [Babel](https://babeljs.io/)
