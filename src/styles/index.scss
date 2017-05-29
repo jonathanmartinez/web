@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+$electricBlue: #0069FF;
+$spaceGrey: #343d46;
+
+@mixin media($queryString){
+  @media #{$queryString} {
+    @content;
+  }
+}
+
+.logo{
+  margin-top: 15px;
+  @include media("(min-width: 767px)"){
+    margin-top: 30px;
+  }
+}
+
+.name{
+  font-size: 26px;
+  margin-top: 40px;
+  @include media("(min-width: 767px)"){
+    margin-top: 80px;
+    font-size: 36px;
+  }
+}
+
+.social-link{
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 24px;
+  @include media("(min-width: 767px)"){
+    display: inline-block;
+  }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+}
+
+h1{
+  font-family: 'Montserrat';
+}
+
+.App{
+  position: absolute;
+  width: 100%;
+  height: 100%
+}
+
+canvas{
+  display:block;
+  /*background: #00c6ff;
+  background: -moz-linear-gradient(45deg,  #00c6ff 0%, #0072ff 100%);
+  background: -webkit-linear-gradient(45deg,  #00c6ff 0%,#0072ff 100%);
+  background: linear-gradient(45deg,  #00c6ff 0%,#0072ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c6ff', endColorstr='#0072ff',GradientType=1 ); */
+  position: fixed;
+}
+
+.lead{
+  color: grey;
+}
+
+a, a:hover{
+  color: $electricBlue;
+}
+
+.social-link{
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 24px;
+}
+
+.tag-link{
+  margin-right: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.right-5{
+  margin-right: 5px;
+}
+
+.right-10{
+  margin-right: 10px;
+}
+
+.bio{
+  margin-top: 40px;
+}
+
+.last-project{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.coded{
+  margin-bottom: 40px;
+}
