@@ -5,7 +5,7 @@ import {OverlayTrigger, Button, Tooltip} from 'react-bootstrap';
 
 export default class App extends Component {
   render() {
-    const particlesOptions = {
+    let particlesOptions = {
       particles: {
         "number":{
           "value":15,
@@ -32,6 +32,14 @@ export default class App extends Component {
         }
       },
       retina_detect: true
+    }
+
+    //set number of particles based on device width
+    const mediaquery = window.matchMedia("(min-width: 767px)");
+    if (mediaquery.matches) {
+      particlesOptions.particles.number.value = 60;
+    } else {
+      particlesOptions.particles.number.value = 15;
     }
 
     const tooltipGithub = (
