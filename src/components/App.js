@@ -64,8 +64,9 @@ export default class App extends Component {
             <article className="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
               <h1 className="name">JONATHAN MARTÍNEZ</h1>
               <p className="lead">Software Engineer</p>
-              <a className="tag-link" href="https://developer.mozilla.org/en/docs/Web/JavaScript">#javascript</a>
+              <a className="tag-link" href="https://www.w3.org/html/">#html</a>
               <a className="tag-link" href="https://developer.mozilla.org/en/docs/Web/CSS">#css</a>
+              <a className="tag-link" href="https://developer.mozilla.org/en/docs/Web/JavaScript">#javascript</a>
               <a className="tag-link" href="https://facebook.github.io/react/">#reactjs</a>
               <a className="tag-link" href="https://angular.io/">#angular</a>
               <a className="tag-link" href="http://php.net/">#php</a>
