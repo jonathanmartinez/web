@@ -64,19 +64,20 @@ export default class App extends Component {
             <article className="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
               <h1 className="name">JONATHAN MARTÍNEZ</h1>
               <p className="lead">Software Engineer</p>
-              <a className="tag-link" href="https://www.w3.org/html/">#html</a>
-              <a className="tag-link" href="https://developer.mozilla.org/en/docs/Web/CSS">#css</a>
-              <a className="tag-link" href="https://developer.mozilla.org/en/docs/Web/JavaScript">#javascript</a>
-              <a className="tag-link" href="https://facebook.github.io/react/">#reactjs</a>
-              <a className="tag-link" href="https://angular.io/">#angular</a>
-              <a className="tag-link" href="http://php.net/">#php</a>
-              <a className="tag-link" href="https://nodejs.org/">#nodejs</a>
-              <a className="tag-link" href="https://www.mysql.com/">#mysql</a>
-              <a className="tag-link" href="https://www.mongodb.com/">#mongodb</a>
+              <a className="tag-link" target="_blank" href="https://www.w3.org/html/">#html</a>
+              <a className="tag-link" target="_blank" href="https://developer.mozilla.org/en/docs/Web/CSS">#css</a>
+              <a className="tag-link" target="_blank" href="https://developer.mozilla.org/en/docs/Web/JavaScript">#javascript</a>
+              <a className="tag-link" target="_blank" href="https://www.typescriptlang.org/">#typescript</a>
+              <a className="tag-link" target="_blank" href="https://facebook.github.io/react/">#reactjs</a>
+              <a className="tag-link" target="_blank" href="https://angular.io/">#angular</a>
+              <a className="tag-link" target="_blank" href="http://php.net/">#php</a>
+              <a className="tag-link" target="_blank" href="https://nodejs.org/">#nodejs</a>
+              <a className="tag-link" target="_blank" href="https://www.mysql.com/">#mysql</a>
+              <a className="tag-link" target="_blank" href="https://www.mongodb.com/">#mongodb</a>
               <p className="bio">
-                I'm a software engineer based in Alicante (Spain) focused in build software following the best practices.
-                I've had the pleasure to work in/for several companies, from startups to big companies:&nbsp;
+                Hey there! I'm Jonathan, a Software Engineer based in Spain (Alicante - Madrid) focused in build software following the best practices. I've had the pleasure to work in/for several companies, from startups to big companies:&nbsp;
                 {/*this nbsp's are to put a space with no underline*/}
+                <a target="_blank" href="https://www.bbva.es/">BBVA</a>,&nbsp;
                 <a target="_blank" href="https://www.cymsuroeste.com/">CYM Suroeste</a>,&nbsp;
                   <a target="_blank" href="http://www.dual-link.com/">Dual Link</a>,&nbsp;
                     <a target="_blank" href="http://www.nitsnets.com/">Nitsnets</a>,&nbsp;
@@ -85,9 +86,10 @@ export default class App extends Component {
                           <a target="_blank" href="http://www.mondraker.com/">Mondraker</a>,&nbsp;
                             <a target="_blank" href="http://blgabogados.es/">BLG Abogados</a>.&nbsp;
                             </p>
-                            <p className="last-project">
-                              Check out my last side project: <a target="_blank" href="http://elasticflight.com/">Elastic Flight</a> — Find cheap flights with no particular date.
-                            </p>
+                            <p className="last-project">Check out my last side projects:</p>
+                            <p><a target="_blank" href="http://www.kanbify.com/">Kanbify</a> — A task manager tool to organize your work and be super-productive.</p>
+                            <p><a target="_blank" href="http://www.elasticflight.com/">Elastic Flight</a> — Find cheap flights with no particular date.</p>
+                            <br/>
                             <p>Feel free to contact me.</p>
                             <p>
                               <OverlayTrigger placement="top" overlay={tooltipGithub}>
