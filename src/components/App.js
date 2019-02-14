@@ -48,6 +48,9 @@ export default class App extends Component {
     const tooltipLinkedin = (
       <Tooltip id="tooltip">/jonathan-martinez1</Tooltip>
     );
+    const tooltipSlack = (
+      <Tooltip id="tooltip">jonymartinez1@gmail.com</Tooltip>
+    );
     const tooltipEmail = (
       <Tooltip id="tooltip">jonymartinez1@gmail.com</Tooltip>
     );
@@ -70,12 +73,12 @@ export default class App extends Component {
               <a className="tag-link" target="_blank" href="https://www.typescriptlang.org/">#typescript</a>
               <a className="tag-link" target="_blank" href="https://facebook.github.io/react/">#reactjs</a>
               <a className="tag-link" target="_blank" href="https://angular.io/">#angular</a>
-              <a className="tag-link" target="_blank" href="http://php.net/">#php</a>
               <a className="tag-link" target="_blank" href="https://nodejs.org/">#nodejs</a>
-              <a className="tag-link" target="_blank" href="https://www.mysql.com/">#mysql</a>
+              <a className="tag-link" target="_blank" href="http://php.net/">#php</a>
               <a className="tag-link" target="_blank" href="https://www.mongodb.com/">#mongodb</a>
+              <a className="tag-link" target="_blank" href="https://www.mysql.com/">#mysql</a>
               <p className="bio">
-                Hey there! I'm Jonathan, a Software Engineer based in Spain (Alicante - Madrid) focused in build software following the best practices. I've had the pleasure to work in/for several companies, from startups to big companies:&nbsp;
+                Hey there! I'm Jonathan, a Software Engineer based in Madrid (Spain), passionate about creating software products using cutting-edge technologies and following the best practices. I've had the pleasure to work in/for several companies, from startups to big ones:&nbsp;
                 {/*this nbsp's are to put a space with no underline*/}
                 <a target="_blank" href="https://www.bbva.es/">BBVA</a>,&nbsp;
                 <a target="_blank" href="https://www.cymsuroeste.com/">CYM Suroeste</a>,&nbsp;
@@ -97,6 +100,9 @@ export default class App extends Component {
                               </OverlayTrigger>
                               <OverlayTrigger placement="top" overlay={tooltipLinkedin}>
                                 <a className="social-link" target="_blank" href="http://linkedin.com/in/jonathan-martinez1"><i className="fa fa-linkedin"></i></a>
+                              </OverlayTrigger>
+                              <OverlayTrigger placement="top" overlay={tooltipSlack}>
+                                <a className="social-link" target="_blank" href="mailto:jonymartinez1@gmail.com"><i className="fa fa-slack"></i></a>
                               </OverlayTrigger>
                               <OverlayTrigger placement="top" overlay={tooltipEmail}>
                                 <a className="social-link" target="_blank" href="mailto:jonymartinez1@gmail.com"><i className="fa fa-envelope"></i></a>
